@@ -1,13 +1,41 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
 #main {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  width: 50%;
+  margin: auto;
 }
 
 #github-container {
   display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
 }
 
 ul {
   list-style: none;
+  padding: 0;
+}
+
+li {
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+img {
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+button {
+  cursor: pointer;
+  padding: 5px 10px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 3px;
 }
